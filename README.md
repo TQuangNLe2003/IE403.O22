@@ -1,15 +1,13 @@
-# IE403_KhaiThacDuLieu
-Đồ Án Môn Học _ "Detection spam comments on the Shopee  social media platform in Vietnam "
+# IE403_DataMining
+Course Project - "Detection of Spam Comments on the Shopee Social Media Platform in Vietnam"
 
+Instructions to Run app.py:
+- Download the app.py file: Obtain the app.py file from the provided resource or copy the supplied source code.
 
-Hướng dẫn Run app.py:
-
-- Tải file app.py: Tải file app.py từ nguồn tài nguyên hoặc sao chép mã nguồn đã được cung cấp.
-
-- Cài đặt các thư viện cần thiết: Mở terminal và chạy các lệnh sau để cài đặt các thư viện cần thiết:
+- Install the required libraries: Open a terminal and run the following commands to install the necessary libraries:
                   pip install streamlit torch transformers Pillow
   
-- Thay đổi đường dẫn phù hợp: Trong mã nguồn app.py, đảm bảo rằng đường dẫn đến file bert_model.pth, thư mục chứa tokenizer và các hình ảnh đã được chỉ định chính xác.
-- Mở terminal và chạy lệnh sau:
+- Adjust the appropriate file paths: In the app.py source code, ensure that the paths to the bert_model.pth file, the tokenizer directory, and the image folder are correctly specified.
+- Run the app: Open the terminal and run the following command:
                   streamlit run app.py
-- Sau khi chạy lệnh này, một trình duyệt web mới sẽ mở và hiển thị ứng dụng web demo. Nhập văn bản vào ô văn bản và nhấn nút "Dự đoán" để xem dự đoán của mô hình về xem văn bản đó có phải là spam hay không.
+- Access the web app: After running the command, a web browser will automatically open, displaying the demo web application. Enter a text into the input field and click the "Predict" button to see the model's prediction on whether the input text is spam or not.
